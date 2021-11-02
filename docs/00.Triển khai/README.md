@@ -34,11 +34,9 @@
 
 **Mô hình**
 
-<img src="http://i.imgur.com/q8ujqN4.png">
 
 **IP Planning**
 
-<img src="http://i.imgur.com/A2NQQjD.png">
 
 <a name="set-up"></a>
 ## 2. Setup môi trường cài đặt( thực hiện trên cả 2 region)
