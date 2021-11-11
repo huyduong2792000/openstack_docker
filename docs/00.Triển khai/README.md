@@ -147,7 +147,7 @@ config_strategy: "COPY_ALWAYS"
 kolla_base_distro: "ubuntu"
 kolla_install_type: "binary"
 openstack_release: "ussuri"
-kolla_internal_vip_address: "192.168.56.10"
+kolla_internal_vip_address: "192.168.56.11"
 kolla_internal_fqdn: "{{ kolla-openstack.kifarunix-demo.com }}"
 kolla_external_vip_address: "{{ kolla_internal_vip_address }}"
 kolla_external_fqdn: "{{ kolla_internal_fqdn }}"
@@ -256,7 +256,7 @@ kolla-ansible -i all-in-one  reconfigure
 **Sửa file /etc/kolla/globals.yml để region có thể liên kết được với region 1**
 
 ```
-kolla_internal_fqdn_r1: 10.10.10.254
+kolla_internal_fqdn_r1: 192.168.56.11
 
 keystone_admin_url: "{{ admin_protocol }}://{{ kolla_internal_fqdn_r1 }}:{{ keystone_admin_port }}"
 keystone_internal_url: "{{ internal_protocol }}://{{ kolla_internal_fqdn_r1 }}:{{ keystone_public_port }}"
@@ -329,7 +329,7 @@ enable_horizon: "no"
 <a name="check-result"> </a>
 ## 5. Kiểm tra kết quả
 
-Vào browser nhập đường dẫn http://192.168.56.10/ sẽ thấy màn hình login
+Vào browser nhập đường dẫn http://192.168.56.11/ sẽ thấy màn hình login
 
 Lấy username và password trong file /etc/kolla/passwords.yml
 
