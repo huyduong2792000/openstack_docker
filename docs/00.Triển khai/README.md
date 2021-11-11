@@ -32,7 +32,9 @@
 
 **Disk:** Tối thiểu 40G/host
 
-**Mô hình**
+![Triển khai](/images/kolla_openstack_region1_info.png)
+
+![Triển khai](/images/kolla_openstack_region2info.png)
 
 
 **IP Planning**
