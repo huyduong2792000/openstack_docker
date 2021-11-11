@@ -337,3 +337,11 @@ Vào browser nhập đường dẫn http://192.168.56.11/ sẽ thấy màn hình
 Lấy username và password trong file /etc/kolla/passwords.yml
 
 Đăng nhập vào sẽ thấy có sẵn một image cirros demo tạo instance với image đó thành công là được
+
+Một số hình ảnh kết quả triển khai:
+
+![Triển khai](/images/kolla_openstack_dashboard.png)
+
+![Triển khai](/images/kolla_openstack_system_info.png)
+
+![Triển khai](/images/kolla_openstack_network_topology.png)
