@@ -181,18 +181,21 @@ kolla-genpwd
 ```sh
 kolla-ansible -i all-in-one bootstrap-servers
 ```
+![Triển khai](/images/kolla_openstack_bootstrap_servers.png)
 
 **Kiểm tra các cấu hình hệ thống xem đủ các điều kiện để deploy chưa**
 
 ```sh
 kolla-ansible -i all-in-one prechecks
 ```
+![Triển khai](/images/kolla_openstack_prechecks.png)
 
 **Nếu như tất cả các điều kiện đều được thông qua thì bắt đầu deploy**
 
 ```sh
 kolla-ansible -i all-in-one deploy
 ```
+![Triển khai](/images/kolla_openstack_deploy.png)
 
 **Sau khi deploy có thể kiểm tra trạng thái hoạt động của các service bằng lệnh**
 
