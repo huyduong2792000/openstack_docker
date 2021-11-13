@@ -40,6 +40,7 @@
 **IP Planning**
 
 region1: enp0s8: 192.168.56.10, enp0s9: không set
+
 region2: enp0s8: 192.168.56.20, enp0s9: không set
 
 <a name="set-up"></a>
